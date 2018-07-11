@@ -26,8 +26,12 @@ function appendKitten(name){
   return kittenName;
 }
 
-function prepentKitten(name) {
+function prependKitten(name) {
   var nameKitten = [name,...kittens];
   return nameKitten;
+}
+
+function removeLastKitten() {
+  var kittenMin = 
 }
 
